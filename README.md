@@ -5,6 +5,7 @@
 机制加载所有的组件。`
 
 **#Java SPI 示例**
+
 前面简单介绍了 SPI 机制的原理，本节通过一个示例演示 Java SPI 的使用方法。首先，我们定义一个接口，名称为 Search。
 
 ~~~public interface Search {
