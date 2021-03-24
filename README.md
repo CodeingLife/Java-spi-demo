@@ -30,11 +30,11 @@ public class FileSearch implements Search {
 }
 
 ~~~~
-接下来 META-INF/services 文件夹下创建文件夹名字为Seach的全限定名com.north.spilat.service.Search，并创建 DatabaseSearch 的全限定名 DatabaseSearch
-和FileSearch的全限定名文件com.north.spilat.service.impl.FileSearch。
+接下来 META-INF/services 文件夹下创建文件为Seach的全限定名com.kaixin.demo.service.Search，内容是 DatabaseSearch 的全限定名 DatabaseSearch
+和FileSearch的全限定名文件com.kaixin.demo.service.impl.FileSearch。
 
-`或者创建com.north.spilat.service.Search文件内容是 DatabaseSearch 的全限定名 DatabaseSearch
-和FileSearch的全限定名文件com.north.spilat.service.impl.FileSearch
+`或者创建com.kaixin.demo.service.Search文件内容是 DatabaseSearch 的全限定名 DatabaseSearch
+和FileSearch的全限定名文件com.kaixin.demo.service.impl.FileSearch
 文件内容为实现类的全限定的类名`
 
 目录结构为
